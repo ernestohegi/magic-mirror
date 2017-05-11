@@ -1,0 +1,15 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #000;
+  color: #FFF;
+  font-size: 14.5vw;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.weatherImage {
+    width: 50%;
+}

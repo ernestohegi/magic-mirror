@@ -17,6 +17,8 @@ a {
     -ms-transform: rotate(90deg); /* IE 9 */
     -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
     transform: rotate(90deg);
+    -webkit-transform-origin: bottom;
     transform-origin: bottom;
+    -webkit-transform-style: preserve-3D;
     transform-style: preserve-3D;
 }

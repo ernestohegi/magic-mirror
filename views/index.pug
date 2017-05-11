@@ -1,6 +1,7 @@
 extends layout
 
 block content
-    div #{weatherMain}
-    div #{temperature}
-    img.weatherImage(src=weatherIcon)
+    div.weatherContainer
+        div #{weatherMain}
+        div #{temperature}
+        img.weatherImage(src=weatherIcon)

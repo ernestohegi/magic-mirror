@@ -1,5 +1,4 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background: #000;
   color: #FFF;
@@ -12,4 +11,10 @@ a {
 
 .weatherImage {
     width: 20%;
+}
+
+.weatherContainer {
+    transform: rotate(90deg);
+    transform-origin: bottom;
+    transform-style: preserve-3D;
 }
